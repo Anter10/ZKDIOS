@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01238C82201CCF6200D480A7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01238C80201CCF6200D480A7 /* LoginView.swift */; };
+		0146C272201CDE93004BF5A7 /* RegistereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146C271201CDE93004BF5A7 /* RegistereView.swift */; };
 		0190802D201CCBF500DA3060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0190802C201CCBF500DA3060 /* AppDelegate.swift */; };
 		0190802F201CCBF500DA3060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0190802E201CCBF500DA3060 /* ViewController.swift */; };
 		01908032201CCBF500DA3060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01908030201CCBF500DA3060 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01238C80201CCF6200D480A7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0146C271201CDE93004BF5A7 /* RegistereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistereView.swift; sourceTree = "<group>"; };
 		01908029201CCBF500DA3060 /* ZKDIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKDIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0190802C201CCBF500DA3060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0190802E201CCBF500DA3060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				01908033201CCBF500DA3060 /* Assets.xcassets */,
 				01908035201CCBF500DA3060 /* LaunchScreen.storyboard */,
 				01908038201CCBF500DA3060 /* Info.plist */,
+				01238C80201CCF6200D480A7 /* LoginView.swift */,
+				0146C271201CDE93004BF5A7 /* RegistereView.swift */,
 			);
 			path = ZKDIOS;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01238C82201CCF6200D480A7 /* LoginView.swift in Sources */,
 				0190802F201CCBF500DA3060 /* ViewController.swift in Sources */,
 				0190802D201CCBF500DA3060 /* AppDelegate.swift in Sources */,
+				0146C272201CDE93004BF5A7 /* RegistereView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
